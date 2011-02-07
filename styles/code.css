@@ -1,0 +1,82 @@
+/*
+	Styles of source code
+*/
+
+/* Area that contains code */
+div.codearea {
+	overflow:auto;
+}
+div.codearea.focused {
+	-moz-box-shadow: 0px 0px 5px #f00;
+	-webkit-box-shadow: 0px 0px 5px #f00;
+	box-shadow: 0px 0px 5px #f00;
+}
+div.codearea br {
+	line-height:36px;
+}
+
+/* Sequence of actions, selectors and others */
+div.codearea div.line {
+	margin:5px;
+	border-radius:12px;
+	-moz-border-radius:12px;
+	border:1px solid;
+	float:left;
+	height:24px;
+	line-height:24px;
+	overflow:hidden;
+}
+div.codearea div.line div {
+	user-select:none;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	cursor:pointer;
+}
+
+/* Sequence type */
+div.codearea div.line div.type {
+	height:24px;
+	width:20px;
+	float:left;
+	border-right:1px solid;
+}
+div.codearea div.line div.type.jquery {
+	background:url(images/jquery.png) center right no-repeat;
+	background-color:#0e1d2f;
+}
+
+/* Single element */
+div.codearea div.line div.element {
+	float:left;
+	padding-right:8px;
+	padding-left:4px;
+}
+div.codearea div.line div.element:last-child {
+	border-radius:0 11px 11px 0px;
+	-moz-border-radius:0 11px 11px 0px;
+}
+
+/* Separator */
+div.codearea div.line div.separator {
+	float:left;
+	height:24px;
+	border-right:1px solid;
+	border-top:1px solid;
+	border-bottom:1px solid;
+	margin-top:-1px;
+}
+
+/* Colors */
+div.codearea div.line div.selector {
+	background:#2E3436;
+	color:#fff;
+}
+div.codearea div.line div.action {
+	background:#d66;
+	color:#111;
+}
+
+/* Tree view */
+div.treeview {
+
+}

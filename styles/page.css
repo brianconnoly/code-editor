@@ -1,0 +1,20 @@
+/* 
+	Index page css.
+	Mostly an attempt to make a full-featured editor
+*/
+
+#editor {
+	width:800px;
+	height:500px;
+	margin:20px auto;
+	border:1px solid;
+}
+
+#file_list {
+	width:200px;
+	height:500px;
+	position:fixed;
+	left:0px;
+	top:20px;
+	border:1px solid;
+}
